@@ -14,6 +14,7 @@ body{
   background: linear-gradient(90deg, hsla(145, 100%, 34%, 1) 0%, hsla(60, 100%, 66%, 1) 100%);
   background: -moz-linear-gradient(90deg, hsla(145, 100%, 34%, 1) 0%, hsla(60, 100%, 66%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(145, 100%, 34%, 1) 0%, hsla(60, 100%, 66%, 1) 100%);
+}
 
   #Home{
     justify-content: center;
@@ -176,4 +177,3 @@ body{
     color: gray;
     font-size: 1rem;
   }
-}
