@@ -3,7 +3,189 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./myStyles.css"/>
+  <!-- <link rel="stylesheet" href="./myStyles.css"/> -->
+  <style>
+    *{
+  margin:0;
+  padding:0;
+}
+
+html{
+  display: flex;
+  box-sizing: border-box;
+  color: darkgreen;
+}
+
+body{
+  width: 100%;
+  background: linear-gradient(90deg, hsla(145, 100%, 34%, 1) 0%, hsla(60, 100%, 66%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(145, 100%, 34%, 1) 0%, hsla(60, 100%, 66%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(145, 100%, 34%, 1) 0%, hsla(60, 100%, 66%, 1) 100%);
+}
+
+  #Home{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: brown;
+  }
+
+  h3{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 25%;
+  }
+
+  .newClass{
+    font-size: 25px;
+    line-height: 20px;
+    color: plum;
+    font-family: monospace;
+    padding: 4px;
+    margin-left: 6px;
+  }
+  nav {
+    width: 100%;
+    height: 50px;
+}
+
+  #nav_id {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      width: 100vw;
+      height: 3rem;
+      margin: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #3169e9;
+  }
+
+  #nav_id li {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  #nav_id li:hover {
+      background-color: hsla(60, 100%, 66%, 1);
+      border-radius: 50px;
+      color: #3169e9;
+  }
+
+  #nav_id a {
+      text-decoration: none;
+      color: #ffff;
+      font-size: 1.2rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+
+  img{
+    width: 400px;
+    margin-top: 3rem;
+    border: 3px solid #3169e9;
+    border-radius: 10px;
+  }
+
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }
+  aside{
+    background-color: antiquewhite;
+    font-size: 15px;
+    width: 250px;
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    background-color: #ffff;    
+  }
+  .Section { 
+    width: 100%; 
+    text-align: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+  }
+  
+  .Section ol { 
+    list-style-type: none; 
+  }
+  #Accident, #Personal_Life{
+    color: #ffff;
+  }
+  #para_1{
+    color: navy;
+  }
+
+  #Home, #Earlier_Carrer{
+    text-align: left;
+    margin-top: 3rem;
+    justify-content: left;
+  }
+
+  #Personal_Life, #Accident{
+    text-align: left;
+    margin-top: 3rem;
+    justify-content: right;
+  }
+  footer {
+    background-color: black;
+    height: 6rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .footer_p {
+    font-size: 1rem;
+    color: #ffff;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1rem;
+  }
+
+  </style>
   <title><h1>Ayrton Senna Tribute Page</h1></title>
 </head>
 <body>
